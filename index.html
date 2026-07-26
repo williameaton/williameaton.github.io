@@ -36,11 +36,11 @@
                         </a> 
                     </li>
                     
-                    <li> <a href="files/CV_March24.pdf" download> 
+                    <li> <a href="files/CV.pdf" download> 
                         <img alt="CVWE" src="images/4x/cv_grey76.png" width="50" height="50">
                         </a> 
                     </li>
-                    <li> <a href="mailto:weaton@princeton.edu"> 
+                    <li> <a href="mailto:w.p.eaton@uu.nl"> 
                         <img alt="mailWE" src="images/4x/email_grey76.png" width="50" height="50">
                         </a> 
                     </li>
@@ -70,8 +70,8 @@
             <div class="intro-title">
                 <p></p>
                 <h1>Will Eaton</h1>
-                <p> <br> PhD Candidate in Computational and Theoretical Seismology</p>
-                <p>Princeton University</p>
+                <p> <br> Assistant Professor in Seismology</p>
+                <p>Utrecht University</p>
             </div>
             <!--Creating the navigation bar:-->
             <nav>
@@ -96,7 +96,7 @@
                 About me
             </h1>
             <p>
-                I am a 4th Year PhD Candidate in the Theoretical and Computational seismology at Princeton University, having completed an integrated Bachelors and Masters degree in Earth Sciences at the University of Oxford, UK. My research interests are in geophysical numerical modelling, predominantly in seismology and geodynamics. 
+                I am an Assistant Professor at Utrecht University having completed my PhD at Princeton University. My research interests are in geophysical numerical modelling, predominantly in seismology and geodynamics. 
             </p>
             <p>
                 Outside of academia my heart lies in exploring nature, watching Liverpool FC and a good cup of tea.  
@@ -115,15 +115,34 @@
 
 
             <h2>
+                Normal modes and Earth's inner core
+            </h2>
+            <h3>
+                w/ <a href="https://www.uu.nl/staff/AFDeuss" class="personlink"> Arwen Deuss  </a> (Utrecht University), 
+                   <a href="https://geosciences.princeton.edu/people/olivia-walbert" class="personlink"> Olivia Walbert </a> (Princeton University), 
+                   <a href="https://geosciences.princeton.edu/people/jeroen-tromp" class="personlink"> Jeroen Tromp  </a> (Princeton University), 
+                   Hen Brett (TNO)
+
+            </h3>
+            <p></p>
+            
+            <p>Earth's normal modes and the ways in which they 'split' are observables for studying Earth's internal structure. In
+                particular my research focusses on studying the anisotropy, or directional dependence, of material properties 
+                in Earth's inner core. This includes development of novel software, <a href="https://github.com/williameaton/NMSplit90" class="textlink"> NMSplit90</a>,
+                 to compute normal-mode splitting effects due to tilted, transverse anisotropy, as well as a 
+                 transdimensional Bayesian MCMC toolkit for inverting the interior structure. 
+            </p>
+
+            <h2>
                 Elasto-gravitational simulations with SPECFEM
             </h2>
             <h3>
-                Supervised by <a href="https://geosciences.princeton.edu/people/jeroen-tromp" class="personlink"> Jeroen Tromp  </a> (Princeton University), in collaboration with <a href="https://digitalearthscience.com/" class="personlink"> Hom Nath Gharti</a> (Queen's University)
+                w/ <a href="https://geosciences.princeton.edu/people/jeroen-tromp" class="personlink"> Jeroen Tromp  </a> (Princeton University), <a href="https://digitalearthscience.com/" class="personlink"> Hom Nath Gharti</a> (Queen's University)
             </h3>
             <p></p>
             <p> Modelling Earth's gravitational potential field is of significant interest for both geodynamic forward and inverse problems. The fact that potential fields, unlike other fields such as displacement, are non-zero outside of a body has provided a challenge for numerical modelling as infinite space can not be meshed. This has placed limitations on numerical modelling of geodynamic processes occurring over long timescales which require consideration of gravitational forces. </p>
-            <p> SPECFEM-X, recently developed by <a href="https://digitalearthscience.com/" class="textlink"> Hom Nath Gharti</a> and <a href="https://geosciences.princeton.edu/people/jeroen-tromp" class="textlink"> Jeroen Tromp  </a>, incorporates gravitational potential fields into <a href="https://specfem.org/" class="textlink"> SPECFEM-GLOBE</a> using a spectral infinite-element method to solve the Laplace equation in an unbounded spatial domain (see <a href="https://academic.oup.com/gji/article/215/2/1098/5067876"  class="textlink">Gharti et al 2018</a>). This refinement enables modelling of 3D quasi-static and elastic problems involving all the features of <a href="https://specfem.org/" class="textlink"> SPECFEM-GLOBE</a>, but with the additional capability to accurately model spatio-temporal changes to the gravitational field. </p>
-            <p> My current research involves utilising this new toolkit to simulate prompt elasto-gravitational signals (PEGS), Earth's nutations and wobbles, as well as visco-elastic modelling of sea-level change. This work was published in <i>Geophysical Journal International</i>, and can be found <a href="https://academic.oup.com/gji/article/235/3/2671/7288688"  class="textlink"> <em>here</em></a>.
+            <p> SPECFEM-X, developed by <a href="https://digitalearthscience.com/" class="textlink"> Hom Nath Gharti</a> and <a href="https://geosciences.princeton.edu/people/jeroen-tromp" class="textlink"> Jeroen Tromp</a>, incorporates gravitational potential fields into <a href="https://specfem.org/" class="textlink"> SPECFEM-GLOBE</a> using a spectral infinite-element method to solve the Laplace equation in an unbounded spatial domain (see <a href="https://academic.oup.com/gji/article/215/2/1098/5067876"  class="textlink">Gharti et al 2018</a>). This refinement enables modelling of 3D quasi-static and elastic problems involving all the features of <a href="https://specfem.org/" class="textlink"> SPECFEM-GLOBE</a>, but with the additional capability to accurately model spatio-temporal changes to the gravitational field. </p>
+            <p> My research involves utilising this new toolkit to simulate prompt elasto-gravitational signals (PEGS), Earth's nutations and wobbles, as well as visco-elastic modelling of sea-level change. This work was published in <i>Geophysical Journal International</i>, and can be found <a href="https://academic.oup.com/gji/article/235/3/2671/7288688"  class="textlink"> <em>here</em></a>.
             </p>
             <p>
                 Click <a href="pegs.html"  class="textlink"> <em>here</em></a> for PEGS sensitivity kernels, and <a href="pgss.html"  class="textlink"> <em>here</em></a> for Prompt Gravity-Strain signals (PGSS) sensitivity kernels. </em></a>.
@@ -134,7 +153,7 @@
                 Seismic scattering and wavefield diffusivity
             </h2>
             <h3>
-                Supervised by <a href="https://mathematics.exeter.ac.uk/staff/tn373" class="personlink"> Tarje Nissen-Meyer</a> (University of Exeter)
+                w/ <a href="https://mathematics.exeter.ac.uk/staff/tn373" class="personlink"> Tarje Nissen-Meyer</a> (University of Exeter)
             </h3>
             <p>Seismic-wave scattering is observed, to variable degrees of strength, on all planetary bodies for which seismic records exist (e.g. from the InSight and Apollo missions). Global-scale imaging using scattered wavefields is capable of resolving structure orders-of-magnitude smaller than is possible using traditional inversion methods such as tomography. Current scattering models and analytical methods are limited to two end-member phenomena: weak single- or multiple-scattering events (ballistic), or intense scattering such that the wavefield retains no phase information (diffuse). My research explores the existence of scattering behaviour intermediate between these end-members, and the dominant properties of heterogeneous media that facilitate a transition between them. 
             </p>
@@ -151,9 +170,12 @@
                 Codes and Software
             </h1>
 
-            <p>Pretty much any useful codes I have written can be found on my <a href="https://github.com/williameaton" class="textlink"> Github</a>. It's also where this website is stored and hosted! I am trying to maintain a philosophy of publishing all my codes, however (in)complete. This means some of the repositories are still under construction, so please contact me with any questions! Click on any of the projects below to find out more:</p>
+            <p>Pretty much any useful codes I have written can be found on 
+                my <a href="https://github.com/williameaton" class="textlink"> Github</a>. 
+                It's also where this website is stored and hosted! I aim to maintain publically-accessible codes however (in)complete. 
+                This means some of the repositories are still under construction, so please contact me with any questions! 
+                Click on any of the projects below to find out more:</p>
         
-        <!--Add in dynamic codes section:-->
         <div class="row">
             <div class="buffer-col"></div>
             <div class="left-col">
@@ -170,7 +192,9 @@
                 <h2> <a href="https://github.com/williameaton/axisem3d-shapes" class="codelinks">AxiSEM-Shapes</a></h2>
                 <img alt="AxiSEM-Shapes" src="images/axisem-shapes.png" width=60%>
 
-                <p>AxiSEM-Shapes is a series of python scripts used to inject 3D shapes such as cylinders, ellipsoids and slabs into 3D models for <a href="https://github.com/kuangdai/AxiSEM-3D">AxiSEM-3D</a>. Examples for use can be found as part of the AxiSEM3D package.
+                <p>AxiSEM-Shapes is a series of python scripts used to inject 3D shapes such as cylinders, 
+                    ellipsoids and slabs into 3D models for <a href="https://github.com/AxiSEMunity/AxiSEM3D">AxiSEM-3D</a>. 
+                    Examples for use can be found as part of the AxiSEM3D package.
                 </p>
                 <p>
                    The newest implementation works for both cartesian and global (spherical/ellipsoidal) simulations, though there are
@@ -182,17 +206,7 @@
                 <span onclick="this.parentElement.style.display='none'" class="closebtn">    X</span>
                 <h2> <a href="https://github.com/williameaton/BallisticToDiffuse" class="codelinks">BallisticToDiffuse</a></h2>
                 <img alt="Correlation-Coefficients" src="images/4x/CC.png" width=40%>
-
                 <p>This repo contains codes related to our manuscript entitled  <a href="https://doi.org/10.1093/gji/ggae098">Seismic scattering regimes from multiscale entropy and frequency correlations</a> .</p>
-            </div>
-
-
-            <div id="b3" class="right-col" style="display:none; ">
-                <span onclick="this.parentElement.style.display='none'" class="closebtn">    X</span>
-                <h2><a href="https://github.com/williameaton/SPECFEMX" class="codelinks">SPECFEM-C</a></h2>
-                <img alt="SPECFEM-C" src="images/4x/SPECFEMX_mesh.png" width=40%>
-
-                <p> SPECFEM-C is a project under development to incorporate a rate-dependent formulation of the Sea Level equations into SPECFEM, utilising the spectral-infinite-element method. The goal is to make the package open-source for sea-level change related to Glacio-isostatic adjustment. The above figure shows an exemplar global Spectral-infinite-element mesh used in this code.</p>
             </div>
 
 
@@ -200,7 +214,9 @@
                 <span onclick="this.parentElement.style.display='none'" class="closebtn">    X</span>
                 <h2><a href="https://specfem.org/" class="codelinks">SPECFEM Website</a></h2>
 
-                <p> Following a meeting of SPECFEM developers in Toronto, October 2022, a dedicated website has been setup for the family of SPECFEM codes. Details on the theory of SPECFEM, documentation, training resources and publications are all being added. Included within the <a href="https://github.com/SPECFEM/specfem.github.io">host repository</a> are resources to automatically download citations from Google Scholar for a specific user. Please get in contact if you are interested in using these scripts! We welcome and encourage any contributions to the SPECFEM website or code family. </p>
+                <p> Following a meeting of SPECFEM developers in Toronto, October 2022, a dedicated website has been setup for the family of SPECFEM codes. Details on the theory of SPECFEM, documentation, training resources and publications are all being added. 
+                    Included within the <a href="https://github.com/SPECFEM/specfem.github.io">host repository</a> are resources to automatically download citations from Google Scholar for a specific user. 
+                    Please get in contact if you are interested in using these scripts! We welcome and encourage any contributions to the SPECFEM website or code family. </p>
             </div>
 
 
@@ -209,7 +225,7 @@
                 <h2><a href="https://github.com/williameaton/NMSplit90" class="codelinks">NMSplit90</a></h2>
                 
                 <img alt="SPECFEM-C" src="images/NMSPLIT90.png" width=40%>
-                <p> NMSplit90 is a Fortran-90 code for computing normal-mode splitting, accelerated with OpenMPI and Fortran CUDA. It relies on a GLL mesh to and spectral-element discretisation to evaluate splitting matrices. Under development. </p>
+                <p> NMSplit90 is a Fortran-90 code for computing normal-mode splitting, accelerated with OpenMPI and CUDA. It relies on a GLL mesh to and spectral-element discretisation to evaluate normal-mode splitting matrices. </p>
             </div>
 
 
@@ -218,7 +234,10 @@
                 <h2><a href="https://github.com/williameaton/PEGS_kernels" class="codelinks">PEGS_kernels</a></h2>
                 
                 <img alt="PEGS_kernels" src="images/PEGS_tiles/beta_PEGS.png" width=40%>
-                <p> Codes for computation and visualisation of Promt Elasto-Gravitational signals and Prompt Gravity-Strain signals.</p>
+                <p> Codes for computation and visualisation of Promt Elasto-Gravitational signals and Prompt Gravity-Strain signals
+                    accompanying our publication 
+                    <a href="https://doi.org/10.1093/gji/ggaf519">Sensitivity of prompt elasto-gravitational signals to 3-D Earth structure</a>. 
+                </p>
             </div>
 
 
@@ -241,7 +260,7 @@
             <h1>Get in touch!</h1>
 
             <p>Please feel free to get in touch about anything on my website, or any queries you may have!
-                You can email me at <a href="mailto:weaton@princeton.edu" class="textlink">weaton@princeton.edu</a> or connect with me on any of the platforms below: 
+                You can email me at <a href="mailto:w.p.eaton@uu.nl" class="textlink">w.p.eaton@uu.nl</a> or connect with me on any of the platforms below: 
             </p>
 
 
@@ -291,7 +310,7 @@
 
 
     <footer>
-        <p>© Will Eaton     |     Last Updated: Dec 6th 2024</p>
+        <p>© Will Eaton     |     Last Updated: July 26th 2026</p>
     </footer>
 
 </html>
